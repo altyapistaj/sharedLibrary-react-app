@@ -5,7 +5,7 @@ def call(String JOB_NAME){
             branch : "main",
 
 
-            customWorkspace : "env.WORKSPACE",
+            customWorkspace : env.WORKSPACE,
             gitAdressAndName : JOB_NAME.tokenize('/')[1]
     ]
 
