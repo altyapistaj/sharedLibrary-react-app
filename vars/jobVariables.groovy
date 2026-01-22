@@ -1,5 +1,4 @@
 def call(String JOB_NAME){
-    def ws = pwd()
     return [
             projectName : 'react-app',
             jobName : JOB_NAME.tokenize('/')[1],
